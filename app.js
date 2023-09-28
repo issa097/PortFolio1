@@ -6,8 +6,5 @@ menuicon.onclick = () => {
   menuicon.classList.toggle("fa-xmark");
   navbar.classList.toggle("active");
 };
-// section.onclick=()=>{
-//   navbar.classList.remove("active");
 
-// }
 
