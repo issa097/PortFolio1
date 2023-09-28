@@ -41,7 +41,7 @@ body {
 }
 
 .logo {
-  font-family: "Nosifer",cursive;
+  font-family: "Nosifer", cursive;
 }
 .header i {
   font-size: 3.6rem;
@@ -569,12 +569,20 @@ span {
     align-items: center;
   }
 }
+@media (max-width: 540px) {
+  section {
+    min-height: 100vh;
+  }
+  .home {
+    background: none;
+  }
+}
 
 @media (max-width: 462px) {
   .education {
     padding: 10rem 4% 5rem 5%;
   }
-  .logo{
+  .logo {
     font-size: 20px;
   }
   .EDUCATION-CONTENT .content p {
